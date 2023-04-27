@@ -1,0 +1,26 @@
+<div class="row w-100% d-flex justify-content-center align-item-center m-0 bg-dark" style="padding-top: 8rem;height: 100vh;">
+    <div class="col-12 col-sm-5 col-lg-4 m-0 border border-warning rounded border-2 p-3 bg-dark" style="height: 60vh;"> 
+    <h3 class="text-center text-warning mb-4">Login</h3>
+
+        <form action="/login" method="post">
+            <div class="">
+                <label for="exampleInputEmail1" class="form-label text-light">Email address</label>
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                <label for="exampleInputPassword1 " class="form-label text-light">Password</label>
+                <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+            </div>
+            {{#if message}}
+             <p class="text-danger">{{message}}</p>
+            {{/if}}
+            <div class="d-flex justify-content-center align-item-center w-100">
+                <button type="submit" class="btn btn-outline-warning px-5 ">Login</button>
+            </div>
+            <div>
+                <p class="text-primary">new user ? <a class="" href="/register">SignUP</a></p>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,33 @@
+<div class="row w-100% h-100% d-flex justify-content-center align-item-center m-0 bg-dark" style="padding-top: 40px; height:100vh;">
+    <div class="col-12 col-sm-5 col-lg-4 m-0 border border-success rounded border-2 p-3 bg-dark" style="height: 85vh;"> 
+    <h3 class="text-center text-success mb-4">ADD USER</h3>
+
+        <form action="/adduser" method="post">
+            
+           <div class="mb-3">
+                <label for="exampleInputPassword1 " class="form-label text-light">Name</label>
+                <input type="text" class="form-control" name="name" id="exampleInputPassword1">
+            </div>
+            
+            <div class="">
+                <label for="exampleInputEmail1" class="form-label text-light">Email address</label>
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1 " class="form-label text-light">mobile</label>
+                <input type="number" class="form-control" name="mobile" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1 " class="form-label text-light">Password</label>
+                <input type="password" class="form-control" name="password" id="exampleInputPassword1">
+            </div>
+            {{!-- {{#if fail}}
+             <p class="text-light">invalid username or password</p>
+            {{/if}} --}}
+            <div class="d-flex justify-content-center align-item-center w-100">
+                <button type="submit" class="btn btn-outline-success px-5 ">ADD USER</button>
+            </div>
+        </form>
+    </div>
+</div>
