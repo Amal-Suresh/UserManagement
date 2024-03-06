@@ -16,7 +16,7 @@
     "express-handlebars": "^7.0.4",
     "express-session": "^1.17.3",
     "hbs": "^4.2.0",
-    "mongodb": "^5.1.0",
+    "mongodb": "^5.9.2",
     "mongoose": "^7.0.3",
     "nocache": "^3.0.4"
   }
