@@ -17,7 +17,7 @@
     "express-session": "^1.17.3",
     "hbs": "^4.2.0",
     "mongodb": "^5.1.0",
-    "mongoose": "^7.0.3",
+    "mongoose": "^7.6.8",
     "nocache": "^3.0.4"
   }
 }
